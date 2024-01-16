@@ -1,0 +1,50 @@
+[
+    {
+    "companyID":1,
+    "companyName":"Amazon",
+    "employeeDetails": [
+        {
+        "id":1,
+        "name":"sumanth",
+        "password":"sumanth@123",
+        "is_resigned":false
+    },
+        {
+        "id":2,
+        "name":"sourya",
+        "password":"sourya@123",
+        "is_resigned":false
+    },
+        {
+        "id":3,
+        "name":"shyam",
+        "password":"shyam@123",
+        "is_resigned":true
+    }
+    ]
+},
+    {
+    "companyID":2,
+    "companyName":"Apple",
+    "employeeDetails": [
+        {
+        "id":1,
+        "name":"nagaraju",
+        "password":"nagaraju@123",
+        "is_resigned":false
+    },
+        {
+        "id":2,
+        "name":"nagesh",
+        "password":"nagesh@123",
+        "is_resigned":true
+    },
+        {
+        "id":3,
+        "name":"suman",
+        "password":"suman@123",
+        "is_resigned":false
+    }
+    ]
+}
+    ]
