@@ -11,14 +11,14 @@ import Foundation
 struct Companies: Codable {
     let companyID: Int
     let companyName: String
-    let employeeDetails: [EmployeeDetail]
+    var employeeDetails: [EmployeeDetail]
 }
 
 // MARK: - EmployeeDetail
 struct EmployeeDetail: Codable {
     let id: Int
     let name, password: String
-    let is_resigned:Bool
+    var is_resigned:Bool
 }
 
 typealias companiesData = [Companies]

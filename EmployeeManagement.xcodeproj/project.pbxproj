@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		487894782B50F38F00B11BCA /* CompanyLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487894772B50F38F00B11BCA /* CompanyLoginVC.swift */; };
 		4878947B2B5446D900B11BCA /* Company.json in Resources */ = {isa = PBXBuildFile; fileRef = 487894792B5446B600B11BCA /* Company.json */; };
 		4878947E2B54F77900B11BCA /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878947D2B54F77900B11BCA /* CompanyModel.swift */; };
-		487894822B55586100B11BCA /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487894812B55586100B11BCA /* EmployeeViewController.swift */; };
 		487894862B55599800B11BCA /* EmployeesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487894842B55599800B11BCA /* EmployeesCell.swift */; };
 		487894872B55599800B11BCA /* EmployeesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487894852B55599800B11BCA /* EmployeesCell.xib */; };
-		4878948A2B5585CC00B11BCA /* CompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487894892B5585CC00B11BCA /* CompanyViewModel.swift */; };
+		488A4E362B5E238700DBEE13 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E332B5E238700DBEE13 /* AppCoordinator.swift */; };
+		488A4E372B5E238700DBEE13 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E342B5E238700DBEE13 /* BaseCoordinator.swift */; };
+		488A4E382B5E238700DBEE13 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E352B5E238700DBEE13 /* Coordinator.swift */; };
+		488A4E3B2B5E2DC600DBEE13 /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E3A2B5E2DC600DBEE13 /* Generic.swift */; };
+		488A4E402B5E2E0A00DBEE13 /* CompanyLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E3D2B5E2E0A00DBEE13 /* CompanyLoginVC.swift */; };
+		488A4E412B5E2E0A00DBEE13 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E3E2B5E2E0A00DBEE13 /* LoginCoordinator.swift */; };
+		488A4E422B5E2E0A00DBEE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488A4E3F2B5E2E0A00DBEE13 /* Main.storyboard */; };
+		488A4E482B5E2E2300DBEE13 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E442B5E2E2300DBEE13 /* EmployeeViewModel.swift */; };
+		488A4E492B5E2E2300DBEE13 /* EmployeeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E452B5E2E2300DBEE13 /* EmployeeCoordinator.swift */; };
+		488A4E4A2B5E2E2300DBEE13 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488A4E462B5E2E2300DBEE13 /* Employee.storyboard */; };
+		488A4E4B2B5E2E2300DBEE13 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E472B5E2E2300DBEE13 /* EmployeeViewController.swift */; };
+		488A4E4F2B5E2F4F00DBEE13 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E4D2B5E2F4F00DBEE13 /* LoginViewModel.swift */; };
+		488A4E502B5E2F4F00DBEE13 /* CompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A4E4E2B5E2F4F00DBEE13 /* CompanyViewModel.swift */; };
 		489318462B50F09F005EF51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489318452B50F09F005EF51C /* AppDelegate.swift */; };
 		489318482B50F09F005EF51C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489318472B50F09F005EF51C /* SceneDelegate.swift */; };
 		4893184A2B50F09F005EF51C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489318492B50F09F005EF51C /* ViewController.swift */; };
@@ -44,13 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		487894772B50F38F00B11BCA /* CompanyLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLoginVC.swift; sourceTree = "<group>"; };
 		487894792B5446B600B11BCA /* Company.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Company.json; sourceTree = "<group>"; };
 		4878947D2B54F77900B11BCA /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
-		487894812B55586100B11BCA /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
 		487894842B55599800B11BCA /* EmployeesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCell.swift; sourceTree = "<group>"; };
 		487894852B55599800B11BCA /* EmployeesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesCell.xib; sourceTree = "<group>"; };
-		487894892B5585CC00B11BCA /* CompanyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewModel.swift; sourceTree = "<group>"; };
+		488A4E332B5E238700DBEE13 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		488A4E342B5E238700DBEE13 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		488A4E352B5E238700DBEE13 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		488A4E3A2B5E2DC600DBEE13 /* Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
+		488A4E3D2B5E2E0A00DBEE13 /* CompanyLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyLoginVC.swift; sourceTree = "<group>"; };
+		488A4E3E2B5E2E0A00DBEE13 /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		488A4E3F2B5E2E0A00DBEE13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		488A4E442B5E2E2300DBEE13 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		488A4E452B5E2E2300DBEE13 /* EmployeeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCoordinator.swift; sourceTree = "<group>"; };
+		488A4E462B5E2E2300DBEE13 /* Employee.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Employee.storyboard; sourceTree = "<group>"; };
+		488A4E472B5E2E2300DBEE13 /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		488A4E4D2B5E2F4F00DBEE13 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		488A4E4E2B5E2F4F00DBEE13 /* CompanyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyViewModel.swift; sourceTree = "<group>"; };
 		489318422B50F09F005EF51C /* EmployeeManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489318452B50F09F005EF51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		489318472B50F09F005EF51C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,14 +129,53 @@
 			path = cells;
 			sourceTree = "<group>";
 		};
-		487894882B55858D00B11BCA /* ViewModel */ = {
+		488A4E322B5E238700DBEE13 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				487894892B5585CC00B11BCA /* CompanyViewModel.swift */,
+				488A4E332B5E238700DBEE13 /* AppCoordinator.swift */,
+				488A4E342B5E238700DBEE13 /* BaseCoordinator.swift */,
+				488A4E352B5E238700DBEE13 /* Coordinator.swift */,
 			);
-			name = ViewModel;
-			path = EmployeeManagement/ViewModel;
-			sourceTree = SOURCE_ROOT;
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		488A4E392B5E2DC600DBEE13 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				488A4E3A2B5E2DC600DBEE13 /* Generic.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		488A4E3C2B5E2E0A00DBEE13 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				488A4E3D2B5E2E0A00DBEE13 /* CompanyLoginVC.swift */,
+				488A4E3E2B5E2E0A00DBEE13 /* LoginCoordinator.swift */,
+				488A4E3F2B5E2E0A00DBEE13 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		488A4E432B5E2E2300DBEE13 /* EmployeesListVC */ = {
+			isa = PBXGroup;
+			children = (
+				488A4E442B5E2E2300DBEE13 /* EmployeeViewModel.swift */,
+				488A4E452B5E2E2300DBEE13 /* EmployeeCoordinator.swift */,
+				488A4E462B5E2E2300DBEE13 /* Employee.storyboard */,
+				488A4E472B5E2E2300DBEE13 /* EmployeeViewController.swift */,
+			);
+			path = EmployeesListVC;
+			sourceTree = "<group>";
+		};
+		488A4E4C2B5E2F4F00DBEE13 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				488A4E4D2B5E2F4F00DBEE13 /* LoginViewModel.swift */,
+				488A4E4E2B5E2F4F00DBEE13 /* CompanyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
 		};
 		489318392B50F09F005EF51C = {
 			isa = PBXGroup;
@@ -144,11 +203,13 @@
 				489318452B50F09F005EF51C /* AppDelegate.swift */,
 				489318472B50F09F005EF51C /* SceneDelegate.swift */,
 				489318492B50F09F005EF51C /* ViewController.swift */,
-				487894772B50F38F00B11BCA /* CompanyLoginVC.swift */,
-				487894812B55586100B11BCA /* EmployeeViewController.swift */,
 				487894792B5446B600B11BCA /* Company.json */,
+				488A4E4C2B5E2F4F00DBEE13 /* ViewModel */,
 				4893184B2B50F09F005EF51C /* Main.storyboard */,
-				487894882B55858D00B11BCA /* ViewModel */,
+				488A4E432B5E2E2300DBEE13 /* EmployeesListVC */,
+				488A4E3C2B5E2E0A00DBEE13 /* Login */,
+				488A4E392B5E2DC600DBEE13 /* Utilities */,
+				488A4E322B5E238700DBEE13 /* Coordinator */,
 				487894832B55597400B11BCA /* cells */,
 				4878947C2B54F75C00B11BCA /* Model */,
 				489318512B50F0A0005EF51C /* Assets.xcassets */,
@@ -283,8 +344,10 @@
 				489318552B50F0A0005EF51C /* LaunchScreen.storyboard in Resources */,
 				489318522B50F0A0005EF51C /* Assets.xcassets in Resources */,
 				487894872B55599800B11BCA /* EmployeesCell.xib in Resources */,
+				488A4E422B5E2E0A00DBEE13 /* Main.storyboard in Resources */,
 				4893184D2B50F09F005EF51C /* Main.storyboard in Resources */,
 				4878947B2B5446D900B11BCA /* Company.json in Resources */,
+				488A4E4A2B5E2E2300DBEE13 /* Employee.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,15 +372,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4878948A2B5585CC00B11BCA /* CompanyViewModel.swift in Sources */,
+				488A4E502B5E2F4F00DBEE13 /* CompanyViewModel.swift in Sources */,
+				488A4E402B5E2E0A00DBEE13 /* CompanyLoginVC.swift in Sources */,
+				488A4E492B5E2E2300DBEE13 /* EmployeeCoordinator.swift in Sources */,
 				489318502B50F09F005EF51C /* EmployeeManagement.xcdatamodeld in Sources */,
+				488A4E362B5E238700DBEE13 /* AppCoordinator.swift in Sources */,
 				487894862B55599800B11BCA /* EmployeesCell.swift in Sources */,
 				4893184A2B50F09F005EF51C /* ViewController.swift in Sources */,
 				489318462B50F09F005EF51C /* AppDelegate.swift in Sources */,
-				487894782B50F38F00B11BCA /* CompanyLoginVC.swift in Sources */,
 				489318482B50F09F005EF51C /* SceneDelegate.swift in Sources */,
-				487894822B55586100B11BCA /* EmployeeViewController.swift in Sources */,
+				488A4E4B2B5E2E2300DBEE13 /* EmployeeViewController.swift in Sources */,
+				488A4E4F2B5E2F4F00DBEE13 /* LoginViewModel.swift in Sources */,
+				488A4E382B5E238700DBEE13 /* Coordinator.swift in Sources */,
+				488A4E372B5E238700DBEE13 /* BaseCoordinator.swift in Sources */,
+				488A4E412B5E2E0A00DBEE13 /* LoginCoordinator.swift in Sources */,
 				4878947E2B54F77900B11BCA /* CompanyModel.swift in Sources */,
+				488A4E482B5E2E2300DBEE13 /* EmployeeViewModel.swift in Sources */,
+				488A4E3B2B5E2DC600DBEE13 /* Generic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
